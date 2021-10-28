@@ -1,0 +1,189 @@
+
+body{
+    background-color: #f0f0e9;
+    font-size: 14px;
+    font-family: Poppins;
+    overflow-x: hidden;
+    padding: 2em;
+}
+
+.btn {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  /* Boostrap Buttons Styling */
+  
+  .btn-secondary {
+    font-family: Poppins-SemiBold;
+    font-size: 13px;
+    color: rgba(108, 88, 179, 0.75);
+    letter-spacing: 1px;
+    line-height: 15px;
+    border: 2px solid #f0f0e9;
+    border-radius: 40px;
+    background: #f0f0e9;
+    transition: all 0.3s ease 0s;
+  }
+ 
+  .btn-main {
+    font-family: Poppins-SemiBold;
+    font-size: 13px;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 15px;
+    border: 2px solid #ff0066;
+    border-radius: 40px;
+    background: #ff0066;
+    transition: all 0.3s ease 0s;
+  }
+
+  
+  
+  .btn-default:hover {
+    color: #FFF;
+    background: rgba(108, 88, 179, 0.75);
+    border: 2px solid rgba(108, 89, 179, 0.75);
+  }
+
+  /*
+  * Header 
+  */
+
+  .logo__searchbar{
+      display: flex;
+  }
+  .logo{
+      width: 100px;
+      height: 100px;
+  }
+  #header__search{
+      width: 100%;
+      padding: .5em;
+      border: 1px solid #f6f6f6;
+      border-radius: 15px;
+  }
+  .header_buttons{
+      display: flex;
+      justify-content: end;
+  }
+
+  .login_button{
+    font-family: Poppins-SemiBold;
+    font-size: 13px;
+    padding: .5rem;
+    color: #ff0066;
+    letter-spacing: 1px;
+    line-height: 15px;
+    border: 2px solid #ff0066;
+    border-radius: 40px;
+    background: transparent;
+    transition: all 0.3s ease 0s;
+  }
+  /*
+  *ENd Header
+  */
+
+  .sub_nav{
+      margin-top: 15px;
+      margin-bottom: 5px;
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .sub_nav__link{
+      margin-left: 15px;
+  }
+  .sub_nav__link.active{
+      color: #ff0066;
+    text-decoration: underline 2px solid #ff0066;  
+  }
+
+  /*
+  *Second Navigation Start Here
+  */
+
+  .second_navigation{
+      background: #fff;
+      padding: 1em;
+  }
+  .second_nav ul{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+  }
+  .second_nav ul li{
+      list-style: none;
+      margin-left: 15px;
+  }
+  .second_nav ul li{
+
+  }
+
+  footer{
+      background-color: #f6f6f6;
+      margin-top: 50px;
+      padding: 5rem;
+  }
+  footer .col-md-3{
+      margin-left: 25px;
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    header{
+        display: none;
+    }
+    .logo__searchbar{
+        display: block;
+        width: 100%;
+    }
+    .logo__searchbar input{
+        padding: .9em;
+    }
+
+    .header_buttons{
+        display: block;
+    }
+    .header_buttons a{
+        width: 100%;
+        margin-top: 5px;
+    }
+    
+    .col-md-4{
+        width: 95%;
+        margin-top: 10px;
+    }
+    .col-md-4 .card{
+        width: 100%;
+    }
+    .block-footer{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .sub_nav{
+        display: block;
+        width: 90%;
+    }
+    .sub_nav__link{
+        width: 90%;
+        padding: .8rem;
+    }
+    .sub_nav__link.active{
+        text-decoration: none;
+        border: 2px solid #ff0066;
+        width: 100%;
+    }
+
+    .custom_section{
+        width: 95%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .second_navigation{
+        margin-top: 65px;
+    }
+  }
+  
